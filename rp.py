@@ -67,13 +67,13 @@ print("RPC is online")
 
 login = title + " " + login
 wallet = "wallet: " + str(user["wallet"])
-state = "connected: " + user["location"] if user["location"] != "None" else "unavailable"
+state = "location: " + (user["location"] or "unavailable")
 rank = "rank: " + str(user["kind"])
 pp = user["image"]["link"] # your intra picture
 
 RPC.update(
 	details=state,
-	state=wallet,
+	state=rank,
 	start=start,
 	large_image = "42", # big 42 image
 	small_image=pp,
