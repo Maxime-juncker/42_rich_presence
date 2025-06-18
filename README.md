@@ -41,8 +41,8 @@ bash /sgoinfre/mjuncker/software/RP42/stop.sh
 ## Installation (for everyone else)
 1. clone the repo
 ```bash
-  git clone https://github.com/Maxime-juncker/RP42.git RP42
-  cd 42
+  git clone https://github.com/Maxime-juncker/42_rich_presence.git RP42
+  cd RP42
 ```
 
 2. install pip package

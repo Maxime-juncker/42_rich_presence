@@ -1,6 +1,6 @@
 #!/bin/bash
 
-EXEC="/sgoinfre/mjuncker/software/RP42/rp.py"
+EXEC="./rp.py"
 PID=$(pgrep -f $EXEC)
 
 if [[ $PID == "" ]]; then

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-EXEC="/sgoinfre/mjuncker/software/RP42/rp.py"
-CONFIG="/home/$USER/.rpconfig.json"
+EXEC="./rp.py"
+CONFIG="./config.json"
 
 if ! [ -f $EXEC ]; then
 	echo "script not found"
