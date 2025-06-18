@@ -27,10 +27,11 @@ you may need to install some pip packages
 ```
 
 #### Run the script
-
 ``` bash
 bash /sgoinfre/mjuncker/software/RP42/launch.sh
 ```
+The script will run in the backgorund, you can close the terminal
+
 #### Stop the script
 
 ``` bash
@@ -66,6 +67,8 @@ CONFIG="CONFIG_PATH"
 ``` bash
 bash launch.sh
 ```
+The script will run in the backgorund, you can close the terminal
+
 #### Stop the script
 
 ``` bash
