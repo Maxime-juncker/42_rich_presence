@@ -1,0 +1,13 @@
+intra:
+  v2:
+    client: "u-s4t2ud-7281dedadbd2dbca3c6332461f9bf60084b5bae10e88a1a17d16093cf23abb5f"   # <- insert your v2 app’s UID here
+    secret: "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"   # <- insert your app’s SECRET here
+    uri: "https://api.intra.42.fr/v2/oauth/token"
+    endpoint: "https://api.intra.42.fr/v2"
+    scopes: "public"
+  v3:
+    client: ""   # <- insert your v3 app’s UID here
+    secret: ""   # <- insert your app’s SECRET here
+    login: ""    # <- insert your intra LOGIN here
+    password: "" # <- insert your intra PASSWORD here
+    uri: 'https://auth.42.fr/auth/realms/staff-42/protocol/openid-connect/token'
