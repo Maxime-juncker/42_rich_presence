@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "discord-rpc": "^4.0.1",
-    "discord.js": "^14.20.0",
-    "node-fetch": "^2.7.0"
-  }
-}
