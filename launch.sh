@@ -1,6 +1,6 @@
 #!/bin/bash
 
-EXEC="/home/mjuncker/github/perso/RP42/rp.py"
+EXEC="/sgoinfre/mjuncker/software/RP42/rp.py"
 CONFIG="/home/$USER/.rpconfig.json"
 
 if ! [ -f $EXEC ]; then
