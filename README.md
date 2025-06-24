@@ -17,43 +17,22 @@ you will need a config.json file like this:
 }
 ```
 
-## Installation (for 42 Lyon)
-the script is already available in the sgoinfre no need to install    
-to use it move your config.json into `~/.rpconfig.json` be carreful and match the exact name     
+## Installation 
 
-you may need to install some pip packages
-```bash
-  pip install -r requirements.txt
-```
-
-#### Run the script
-``` bash
-bash /sgoinfre/mjuncker/software/RP42/launch.sh
-```
-The script will run in the backgorund, you can close the terminal
-
-#### Stop the script
-
-``` bash
-bash /sgoinfre/mjuncker/software/RP42/stop.sh
-```
-
-
-## Installation (for everyone else)
 1. clone the repo
 ```bash
   git clone https://github.com/Maxime-juncker/42_rich_presence.git RP42
   cd RP42
 ```
 
-2. install pip package
+2. install pip packages
 ```bash
   pip install -r requirements.txt
 ```
 
 
 3. edit launch / stop script
-use your's favorite editor and change the `EXEC` varaible of `launch.sh` and `stop.sh`    
+use your's favorite editor and change the `EXEC` variable of `launch.sh` and `stop.sh`    
 you will also need to change the `CONFIG` path in launch.sh
 
 ```bash
